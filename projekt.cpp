@@ -8,8 +8,8 @@
 #include <mutex>
 
 using namespace std;
-const int M=3;//wartosc M moze byc dowolna >0
-const int N=5;//wartosc N przy N>=15 wyrzuca blad pamieci. Sprawdzane na innych komputerach
+const int M=20;//wartosc M moze byc dowolna >0
+const int N=10;//wartosc N przy N>=15 wyrzuca blad pamieci. Sprawdzane na innych komputerach
 		//ze program dziala nawet dla 20+, ale powyzej tej liczby takze jest blad z pamiecia.
 int tab[M][N]; //macierz
 int suma=1; //pionek wstawiany do macierzy
